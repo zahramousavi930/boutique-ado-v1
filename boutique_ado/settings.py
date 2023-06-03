@@ -26,10 +26,11 @@ SECRET_KEY = 'p@ei#69*b*zz3u4yie-$()@cy^l(+x9&@6ypx+r0lm(3%_9hr7'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'localhost',
     '127.0.0.1',
-    'https://8000-zahramousavi930-boutique-ccfivtjj5p.us2.codeanyapp.com/',
+    'localhost',
+    '8000-zahramousavi930-boutique-ccfivtjj5p.us2.codeanyapp.com',
 ]
+
 
 
 # Application definition
