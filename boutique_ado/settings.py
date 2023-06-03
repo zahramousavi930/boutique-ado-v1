@@ -26,10 +26,7 @@ SECRET_KEY = 'p@ei#69*b*zz3u4yie-$()@cy^l(+x9&@6ypx+r0lm(3%_9hr7'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '127.0.0.1',
-    'localhost',
-    '8000-zahramousavi930-boutique-ccfivtjj5p.us2.codeanyapp.com',
-]
+    '8000-zahramousavi930-boutique-zuotr7caro.us2.codeanyapp.com', '127.0.0.1', 'localhost']
 
 
 
