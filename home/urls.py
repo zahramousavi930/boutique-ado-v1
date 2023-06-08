@@ -10,4 +10,5 @@ from . import views
 urlpatterns = [
     # Other URL patterns
     path('profile/', views.profile_view, name='profile'),
+    path('', views.index, name='home'),
 ]
