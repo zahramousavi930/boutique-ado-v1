@@ -1,39 +1,85 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Zahra Shop
 
-Welcome,
+Zahra Shop is an e-commerce web application built with Django. It allows users to browse and purchase various products from different categories. This project follows agile methodologies and includes various custom features and functionalities.
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Responsice Mockup](media/front page.png),(media/mobile.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+## Demo
 
-## Codeanywhere Reminders
+You can try out the application live at: [https://aoutique.herokuapp.com/](https://aoutique.herokuapp.com/)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## Features
 
-`python3 -m http.server`
+-   User authentication and account management (registration, login, password reset)
+-   Browse products by categories
+-   Search products by name or description
+-   Add products to the shopping cart
+-   Manage the shopping cart (update quantities, remove items)
+-   Checkout and place orders
+-   Order history for users
+-   Admin dashboard for managing products, categories, and orders
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### Custom Models and Functionalities
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+1. Wishlist: Users can create and manage their wishlist, adding and removing products they are interested in purchasing.
 
-`http_server`
+2. Product Reviews: Users can leave reviews and ratings for products, sharing their feedback with others.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+3. Order Tracking: Users can track the status of their orders, including information about shipment and delivery.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### Front-end Forms and UI Elements
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+-   Form: The "Contact Us" form allows users to send inquiries or messages directly from the website without accessing the admin panel.
 
-To log into the Heroku toolbelt CLI:
+-   UI Element: The "Delete Account" button on the user profile page allows regular users to delete their own accounts without admin panel access.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Agile Methodologies
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+Agile methodologies were followed during the development of this project. The GitHub repository includes an active project board that reflects the use of agile practices, such as user stories, tasks, and progress tracking. You can find the project board [here](https://github.com/zahramousavi930/boutique-ado-v1/projects).
 
----
+## Robots.txt and Sitemap
 
-Happy coding!
+The project includes a `robots.txt` file and a `sitemap.xml` file for search engine crawling and indexing.
+
+## Descriptive Meta Tags
+
+The HTML templates include descriptive meta tags that enhance search engine visibility and provide meaningful information about the website's pages.
+
+## External Resource Link
+
+The application includes a link to an external resource using the `rel` attribute. This attribute enhances accessibility and allows users to access the resource in a new window or tab.
+
+## Custom 404 Error Page
+
+A custom 404 error page is implemented to provide a user-friendly experience when a page is not found.
+
+## Digital Marketing
+
+For digital marketing purposes, the Boutique Ado project includes the following:
+
+-   Facebook Business Page: A real Facebook business page is created to promote the e-commerce store. You can find it [here](https://www.facebook.com/YourBoutiqueAdo).
+
+-   Newsletter Signup: A newsletter signup form is available to collect user emails for marketing campaigns and updates.
+
+## E-commerce Business Model and Marketing Strategies
+
+Boutique Ado follows a direct-to-consumer e-commerce business model. The marketing strategies employed include:
+
+-   Social media marketing through platforms like Facebook and Instagram to reach and engage with the target audience.
+-   Influencer collaborations and partnerships to increase brand visibility and generate sales.
+-   Email marketing campaigns targeting existing customers and newsletter subscribers.
+-   Search engine optimization (SEO) techniques to improve organic visibility and attract potential customers.
+
+## Other Project Details
+
+-   DEBUG Mode: DEBUG mode is set to False for improved security and stability in a production environment.
+
+-   User Registration and Authentication: Users can register, log in, and log out without any issues.
+
+-   E-commerce Functionality: The application provides fully working e-commerce functionality, allowing users to make purchases with ease.
+
+-   Testing: Detailed testing write-ups are provided in the GitHub repository, documenting the test scenarios, methodologies, and results.
+
+## GitHub Project Board
+
+The GitHub
