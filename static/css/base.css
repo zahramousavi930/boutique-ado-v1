@@ -349,3 +349,11 @@ input[name='q']::placeholder {
 .navbar {
     background-color: #183661;
 }
+
+/* Mailchimp */
+
+#mc_embed_singnup {
+    backround: #fff
+    clear : left;
+    font : 14px Helvetics, Arial, sans-serif;
+}
