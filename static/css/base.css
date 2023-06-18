@@ -28,7 +28,7 @@ body {
 }
 
 .shop-now-button {
-    background: #ff5252;
+    background: black;
     color: white;
     min-width: 260px;
 }
@@ -65,28 +65,12 @@ body {
     color: #000 !important;
 }
 
-.text-blue {
-    color: #183661 !important;
-}
-
-.text-white {
-    color: white !important;
-}
-
-.text-orage {
-    color:#f2c119;
-}
-
 .border-black {
     border: 1px solid black !important;
 }
 
-.bg-orange {
-    background-color: #f2c119 !important;
-}
-
-.bg-red {
-   background-color: #ff5252
+.bg-black {
+    background: #000 !important;
 }
 
 .overlay {
@@ -307,7 +291,6 @@ input[name='q']::placeholder {
         height: calc(100vh - 116px);
     }
 
-
     .display-4.logo-font.text-black {
         font-size: 2rem;
     }
@@ -343,9 +326,4 @@ input[name='q']::placeholder {
     .increment-qty, .decrement-qty {
         padding: .25rem .5rem !important;
     }
-}
-}
-
-.navbar {
-    background-color: #183661;
 }
