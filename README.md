@@ -2,7 +2,8 @@
 
 Zahra Shop is an e-commerce web application built with Django. It allows users to browse and purchase various products from different categories. This project follows agile methodologies and includes various custom features and functionalities.
 
-![Responsice Mockup](media/front page.png),(media/mobile.png)
+![Responsice Mockup]('/media/front page.png')
+![Responsice Mockup]('media/mobile.png')
 
 ## Demo
 
